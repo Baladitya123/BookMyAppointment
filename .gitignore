@@ -1,0 +1,19 @@
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+output/
+tmp/
+coverage/
+
+# Local configuration and credentials. Keep the checked-in examples.
+**/.env
+**/.env.*
+!**/.env.example
+
+# Patient uploads are private local data; keep only the empty-folder marker.
+server/uploads/**
+!server/uploads/.gitkeep
+
+*.log
+.DS_Store
